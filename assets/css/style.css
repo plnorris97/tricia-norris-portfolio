@@ -1,0 +1,203 @@
+body {
+    font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    width: 100%;
+    color: black;
+    
+}
+.jumbotron {
+    height: 300px;
+}
+
+.bg {
+    /* background-color: navy;  */
+    height: 100%; 
+    background-repeat: repeat;
+    background-size: inherit;
+}
+
+.container-fluid {
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-left: 176px;
+    margin-right: 176px;
+}
+
+.navbar {
+    height: 60px;
+    margin: 10px; 
+    padding: 20px;
+
+}
+
+.nav-item {
+    color: black;
+    padding: 10px;
+}
+
+#navbarSupportedContent {
+    position: absolute;
+    right: 0;
+    text-align: right; 
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: slategray;
+    border-color: slategray;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding:10px; 
+} 
+
+
+h1 {
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: black; 
+}
+
+h2 {
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 45px;
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+
+#hr1 {
+    background: black;
+    width: 100%;
+}
+
+#card-dislaimer {
+    font-size: 10px;
+    color: slategray;
+}
+
+.card {
+    background-color: #d3d3d3;
+    max-width: 460px;
+    padding: 10px;
+    margin: 10px;
+}
+#card-title {
+    display: inline;
+    text-align: left;
+}
+
+#game {
+    display: inline;
+    align-items: right;
+}
+
+.icon {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#shout, #know, #resume {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.form {
+    width: 600px;
+   
+}
+
+.social-icon {
+    display: inline;
+    color: navy;
+    padding: 10px;
+}
+.push {
+    /* Creates sticky footer */
+    height: 50px;
+}
+
+.social {
+    padding-top: 20px; 
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+}
+.foot-container {
+    width: auto;
+    max-width: 100%;
+    bottom: 0;
+    color: navy;
+    padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 575.88px) {
+    .container-fluid {
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background: #4aaaa5;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        background: none; 
+    }
+    nav div:first-child h1 {
+        padding: 0;
+        margin-left: 16px;
+        height: 0 auto; 
+    }
+    nav ul li {
+        border-bottom: none;
+    }
+    nav ul li a {
+        padding: 18px 16px;
+    }
+    .column {
+        width: 50%;
+    }
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+}
+@media only screen and (max-width: 768.98px) {
+    .container-fluid {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 991.98px) {
+    .container-fluid {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+/* @media only screen and (max-width: 1199.98px) {
+    .container-fluid {
+        
+    }
+} */
