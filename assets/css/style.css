@@ -12,11 +12,19 @@ body {
     height: 300px;
 } */
 
-.wrapper {
-    /* padding: 20px; */
+
+
+/* .wrapper {
     height: auto;
     margin: 0 auto -50px;
     background-color: #d3d3d3;
+} */
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -30px;
+    padding: 0 0 30px 0px;   /* new padding */
 }
 
 .container-fluid {
@@ -35,10 +43,17 @@ body {
 }
 
 .navbar {
-    height: 100px;
+    height: auto;
     text-align: right;
+    color: black;
 }
 
+.navbar-collapse {
+    background-color: #343a40!important;
+    color: white;
+    text-align: right;
+    width: 250px;
+}
 
 .nav-item {
     color: black;
@@ -60,9 +75,9 @@ body {
     text-align: center;
 }
 
-.btn {
-    background-color: slategray;
-    border-color: slategray;
+#appbtn {
+    background-color: #343a40;
+    border-color: #343a40;
     border-radius: 0px;
 }
 

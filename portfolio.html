@@ -6,31 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Portfolio</title>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
-            <a class="navbar-brand" href="../tricia-norris-portfolio/index.html"><h3>Tricia Norris</h3></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="../tricia-norris-portfolio/index.html"><h2>Tricia Norris</h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="collapseNavbar">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../tricia-norris-portfolio/index.html">About</a>
+                        <a class="nav-link" href="./index.html">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="../tricia-norris-portfolio/portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../tricia-norris-portfolio/contact.html">Contact</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -39,12 +31,16 @@
             <div class="container-fluid">
                 <br>
                 <div class="row">
-                    <div class="col-12">
-                        <h2>Portfolio</h2>
-                        <hr>
+                    <div class="col-12, col-8, col-4">
+                        <br>
+                        <br>
+                        <br>
+                        <h3>Portfolio</h3>
                         <br>
                     </div>
                 </div>
+                <hr>
+                <br>
                 <div class="row">
                     <div class="col-sm-12 col-md-8 col-lg-4">
                         <div class="card">
@@ -54,8 +50,8 @@
                                 <p class="card-text">The computer chooses a letter and the player gets 9 chances to guess
                                     the letter. User can play again and keep track of wins and losses.</p>
                                 <p class="card-dislaimer">JS, JQ</p>
-                                <a href="https://plnorris97.github.io/Psychic-Game/" target="_blank" class="btn btn-primary">Game</a>
-                                <a href="https://github.com/plnorris97/Psychic-Game" target="_blank" class="btn btn-primary">Code</a>
+                                <a href="https://plnorris97.github.io/Psychic-Game/" target="_blank" class="btn btn-primary" id="appbtn">Game</a>
+                                <a href="https://github.com/plnorris97/Psychic-Game" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
                             </div>
                         </div>
                     </div>
@@ -67,8 +63,8 @@
                                 <p class="card-text">The user is given 4 crystal jewels and each is assigned a value. The
                                     user must select jewels to add their total up to the goal score. </p>
                                 <p class="card-dislaimer">JS, JQ</p>
-                                <a href="https://plnorris97.github.io/crystal-collector/" target="_blank" class="btn btn-primary">Game</a>
-                                <a href="https://github.com/plnorris97/crystal-collector" target="_blank" class="btn btn-primary">Code</a>
+                                <a href="https://plnorris97.github.io/crystal-collector/" target="_blank" class="btn btn-primary" id="appbtn">Game</a>
+                                <a href="https://github.com/plnorris97/crystal-collector" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
                             </div>
                         </div>
                     </div>
@@ -80,8 +76,8 @@
                                 <p class="card-text">User has 45 seconds to answer 10 common bar trivia questions. When
                                     time is up, the user sees which questions they answered correctly.</p>
                                 <p class="card-dislaimer">JS, JQ</p>
-                                <a href="https://plnorris97.github.io/TriviaGame/" target="_blank" class="btn btn-primary">Game</a>
-                                <a href="https://github.com/plnorris97/TriviaGame" target="_blank" class="btn btn-primary">Code</a>
+                                <a href="https://plnorris97.github.io/TriviaGame/" target="_blank" class="btn btn-primary" id="appbtn">Game</a>
+                                <a href="https://github.com/plnorris97/TriviaGame" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
                             </div>
                         </div>
                     </div>
@@ -95,8 +91,8 @@
                                 <p class="card-text">The user can view gifs of the chosen political leaders and add their
                                     own using the Giphy Gifs API.</p>
                                 <p class="card-dislaimer">JS, JQ, API</p>
-                                <a href="https://plnorris97.github.io/Giphy-Political/" target="_blank" class="btn btn-primary">App</a>
-                                <a href="https://github.com/plnorris97/Giphy-Political" target="_blank" class="btn btn-primary">Code</a>
+                                <a href="https://plnorris97.github.io/Giphy-Political/" target="_blank" class="btn btn-primary" id="appbtn">App</a>
+                                <a href="https://github.com/plnorris97/Giphy-Political" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
                             </div>
                         </div>
                     </div>
@@ -108,8 +104,8 @@
                                 <p class="card-text">The user can view current train times and add a new train to the
                                     schedule.</p>
                                 <p class="card-dislaimer">JS, JQ, Moment.JS</p>
-                                <a href="https://plnorris97.github.io/Train-Scheduler/" target="_blank" class="btn btn-primary">App</a>
-                                <a href="https://github.com/plnorris97/Train-Scheduler" target="_blank" class="btn btn-primary">Code</a>
+                                <a href="https://plnorris97.github.io/Train-Scheduler/" target="_blank" class="btn btn-primary" id="appbtn">App</a>
+                                <a href="https://github.com/plnorris97/Train-Scheduler" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
                             </div>
                         </div>
                     </div>
@@ -118,17 +114,64 @@
                             <a href="https://lylekarim.github.io/wine-cellar/index.html" target="_blank"><img class="card-img-top"
                                     src="../tricia-norris-portfolio/assets/images/Wine 0.png" alt="Wine Cellar App"></a>
                             <div class="card-body">
-                                <p class="card-text">The user can create and catalog their wine into their very own wine cellar. They can create a profile and save wine selections.  
+                                <p class="card-text">The user can create and catalog their wine into their very own wine cellar.  
                                 </p>
                                 <p class="card-dislaimer">JS, JQ, API, Firebase, Charts.js </p>
-                                <a href="https://lylekarim.github.io/wine-cellar/index.html" target="_blank" class="btn btn-primary">App</a>
-                                <a href="https://github.com/lylekarim/wine-cellar" target="_blank" class="btn btn-primary">Code</a>
+                                <a href="https://lylekarim.github.io/wine-cellar/index.html" target="_blank" class="btn btn-primary" id="appbtn">App</a>
+                                <a href="https://github.com/lylekarim/wine-cellar" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="card">
+                                <a href="https://github.com/plnorris97/bamazon" target="_blank"><img class="card-img-top"
+                                        src="../tricia-norris-portfolio/assets/images/Bamazon.png" alt="Bamazon App"></a>
+                                <div class="card-body">
+                                    <p class="card-text">The user answers a series of questions via the command line interface to search for and purchase products from the Bamazon store.</p>
+                                    <p class="card-dislaimer">Node, MySQL</p>
+                                    <!-- <a href="https://plnorris97.github.io/Giphy-Political/" target="_blank" class="btn btn-primary" id="appbtn">App</a> -->
+                                    <a href="https://github.com/plnorris97/bamazon" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-4">
+                            <div class="card">
+                                <a href="" target="_blank"><img class="card-img-top"
+                                        src="../tricia-norris-portfolio/assets/images/Fury FriendFinder.png" alt="FriendFinder"></a>
+                                <div class="card-body">
+                                    <p class="card-text">Fury FriendFinder is currently under construction and is coming soon!</p>
+                                    <p class="card-dislaimer">Node, Express</p>
+                                    <!-- <a href="https://plnorris97.github.io/Train-Scheduler/" target="_blank" class="btn btn-primary" id="appbtn">App</a>
+                                    <a href="https://github.com/plnorris97/Train-Scheduler" target="_blank" class="btn btn-primary" id="appbtn">Code</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-12 col-md-8 col-lg-4">
+                            <div class="card">
+                                <a href="https://lylekarim.github.io/wine-cellar/index.html" target="_blank"><img class="card-img-top"
+                                        src="../tricia-norris-portfolio/assets/images/Wine 0.png" alt="Wine Cellar App"></a>
+                                <div class="card-body">
+                                    <p class="card-text">The user can create and catalog their wine into their very own wine cellar. They can create a profile and save wine selections.  
+                                    </p>
+                                    <p class="card-dislaimer">JS, JQ, API, Firebase, Charts.js </p>
+                                    <a href="https://lylekarim.github.io/wine-cellar/index.html" target="_blank" class="btn btn-primary" id="appbtn">App</a>
+                                    <a href="https://github.com/lylekarim/wine-cellar" target="_blank" class="btn btn-primary" id="appbtn">Code</a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
             </div>
         </div>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous">
         <div class="push"></div>
     </body>
     
