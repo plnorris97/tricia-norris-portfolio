@@ -92,23 +92,25 @@ h1 {
 }
 
 h2 {
-    font-family: "Georgia", 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
+    font-family: 'sans-serif', 'Times New Roman', Times;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+h3 {
+    font-family: 'sans-serif', 'Times New Roman', Times;
+    /* margin-bottom: 20px; */
+    margin-top: 40px;
     margin-left: 20px;
     font-size: 30px;
     line-height: 45px;
     color: black;
 }
 
-h3 {
-    font-family: "Georgia", 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    font-size: 30px;
-    line-height: 45px;
-    color: white;
+h4 {
+    font-style: sans-serif;
 }
-
 
 h5 {
     color: black;
